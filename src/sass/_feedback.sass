@@ -1,0 +1,61 @@
+
+.inst_feedback_slider
+	background-image: url('../img/slider_bg.jpeg')
+	background-size: cover
+	height: 65vh
+	margin-top: 30px
+	margin-bottom: 80px
+
+	img
+		margin: auto
+		height: 65vh
+		object-fit: contain
+		width: 80%
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+	filter: invert(1) grayscale(100)
+
+.feedback_post
+	display: flex
+	flex-direction: row
+	align-items: center
+	&:nth-child(odd)
+		flex-direction: row-reverse
+		.feedback_post_descr
+			padding-left: 0px
+			padding-right: 20px
+
+		
+
+	&_photo
+		// border: 1px solid red
+		display: flex
+		justify-content: center
+		align-items: center
+		height: 17vw
+		width: 17vw
+
+	&_descr
+		// border: 1px solid red
+		padding-left: 30px
+
+
+	.client_photo
+		margin: 0 auto
+		display: block
+		height: 100%
+		width: 100%
+		background: url('../img/SamNumerolog_old.jpeg') center center/cover no-repeat
+		border-radius: 100%
+	.client_name 
+		font-size: 30px
+		text-align: left
+		font-style: italic
+
+	.client_feedback 
+		font-size: 19px
+		text-align: left
+		font-style: italic
+
+
+		

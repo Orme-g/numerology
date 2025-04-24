@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Цены и Услуги">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" type='text/css' href="css/style.css">
+  <title>Цены и Услуги</title>
+</head>
+
+<body class="secondary_pages">
+  <main>
+    <header>
+      <nav class="navbar navbar-expand-md navbar_secondary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-evenly menu_list">
+              <li class="nav-item">
+                <a class="menu_item" href="index.html">Нумерология</a>
+              </li>
+              <li class="nav-item active_item">
+                <a class="menu_item" href="prices.html">Услуги и цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu_item" href="feedback.html">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu_item" href="Pythagoras.html">Квадрат Пифагора</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h2>Услуги и Цены</h2>
+      <article>
+        <h3>Общая консультация</h3>
+        <p><strong>Общая консультация</strong> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+          tempore consequatur! Dignissimos, excepturi eum veniam provident voluptate sunt ad eaque. Debitis minima
+          deserunt atque esse velit rerum, iure magnam, culpa alias sapiente aperiam numquam unde autem nemo ex modi!
+        </p>
+        <p>Цены:
+          <br>Устная консультация Skype/Zoom/WhatsApp - 15000 &#8381
+          <br>Письменная работа - 20000 &#8381
+        </p>
+      </article>
+      <article>
+        <h3>Совместимость с партнером</h3>
+        <p><strong>Совместимость с партнером</strong> - Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Deserunt ipsa ratione similique non asperiores, dolore aperiam cupiditate sunt, maxime alias maiores nostrum
+          accusantium iusto inventore voluptatibus omnis porro molestias tenetur!</p>
+        <p>Цены:
+          <br>Устная консультация Skype/Zoom/WhatsApp - 10000 &#8381
+          <br>Письменная работа - 15000 &#8381</p>
+      </article>
+      <article>
+        <h3>Подбор даты для события</h3>
+        <p><strong>Подбор даты для события</strong> - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quia
+          eos voluptatibus ipsum, ducimus quae dicta exercitationem beatae cupiditate iste! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quos quibusdam corrupti necessitatibus reprehenderit distinctio, sed ut quas
+          quod accusamus blanditiis.</p>
+        <p>Цены:
+          <br>Устная консультация Skype/Zoom/WhatsApp - 5000 &#8381
+          <br>Письменная работа - 7000 &#8381</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <button type="button" class="btn contact_btn" data-bs-toggle="modal" data-bs-target="#contact_me">
+      Задать вопрос <i class="fa-regular fa-comment-dots"></i>
+    </button>
+    <div class="footer_title">Мои страницы в соцсетях:</div>
+    <ul class="social_links">
+      <li>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://vk.com/iveria_812"><i class="fa-brands fa-vk"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </li>
+    </ul>
+    <p>Возрастные ограничения 18+</p>
+    <p>Все права защищены &#169;</p>
+  </footer>
+  <div class="modal fade" id="contact_me" tabindex="-1" aria-labelledby="contact_me_label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title" id="contact_me_label">Задать вопрос</div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="contact_form" action="#">
+            <p>Отправьте мне ваш вопрос на почту и я свяжусь с вами.</p>
+            <div class="row g-2">
+              <div class="col-4">
+                <div class="form-floating mb-3">
+                  <input type="text" name="name" class="form-control input_user_name" id="input_name"
+                    placeholder="Ваше имя">
+                  <label for="input_name">Ваше имя</label>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="form-floating mb-3">
+                  <input type="email" name="email" class="form-control input_user_email" id="input_email"
+                    placeholder="Ваш Email">
+                  <label for="input_email">Ваш Email</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-floating">
+              <textarea name="text" class="form-control input_text" placeholder="Задайте ваш вопрос"
+                id="your_question"></textarea>
+              <label for="your_question">Задайте ваш вопрос</label>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+              <button class="btn btn-primary send_request">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact_me_pop_up show_contact_me">
+    <button type="button" class="btn contact_btn" data-bs-toggle="modal" data-bs-target="#contact_me">
+      Задать вопрос <i class="fa-regular fa-comment-dots"></i>
+    </button>
+  </div>
+  <div class="contacts_fixed_menu">
+    <ul class="fixed_menu_items">
+      <li><a href="#"><i class="fa-brands fa-instagram wheat_font contacts_item"></i></a></li>
+      <li><a href="https://vk.com/iveria_812"><i class="fa-brands fa-vk wheat_font contacts_item"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-whatsapp wheat_font contacts_item"></i></a></li>
+    </ul>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
