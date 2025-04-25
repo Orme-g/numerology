@@ -58,7 +58,6 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     // Modal window
-
     const sendEmailButton = document.querySelector(".send_request"),
         contactForm = document.querySelector(".contact_form"),
         inputName = document.querySelector(".input_user_name"),
